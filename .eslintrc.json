@@ -1,0 +1,33 @@
+{
+    "env": {
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "standard"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        //colocar ponto e virgula nos finais
+        "semi": [
+            "error",
+            "always"
+        ],
+        //forçar aspas duplas em strings
+        "quotes": [
+            "error",
+            "double"
+        ]
+    }
+}
